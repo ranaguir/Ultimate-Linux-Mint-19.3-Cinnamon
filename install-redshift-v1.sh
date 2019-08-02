@@ -11,6 +11,7 @@
 #
 ##################################################################################################################
 
+# En realidad ya se encuentra instalado en el sistema
 
 sudo apt install -y redshift redshift-gtk geoclue-2.0
 

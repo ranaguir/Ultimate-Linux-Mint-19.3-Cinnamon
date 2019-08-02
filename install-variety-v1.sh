@@ -13,11 +13,11 @@
 
 
 # Downloading and installing latest variety
-sudo add-apt-repository ppa:peterlevi/ppa -y
-sudo apt-get update
+#sudo add-apt-repository ppa:peterlevi/ppa -y
+#sudo apt-get update
+
+# Ya viene en los repositorios oficiales
 sudo apt-get install variety -y
-
-
 
 echo "################################################################"
 echo "###################    variety installed   #####################"

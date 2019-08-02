@@ -17,7 +17,7 @@
 
 rm -rf /tmp/arc-flatabulous-theme
 
-sudo apt-get install -y autoconf automake pkg-config libgtk-3-dev git
+sudo apt install -y autoconf automake pkg-config libgtk-3-dev git optipng sassc
 
 git clone https://github.com/andreisergiu98/arc-flatabulous-theme  /tmp/arc-flatabulous-theme
 cd /tmp/arc-flatabulous-theme
@@ -39,7 +39,7 @@ sudo cp /usr/share/themes/Arc-Dark/cinnamon/cinnamon.css /usr/share/themes/Arc-F
 
 
 # cleanup
-rm -rf /tmp/arc-flatabulous-theme
+sudo rm -rf /tmp/arc-flatabulous-theme
 
 echo "################################################################"
 echo "#############   arc flatabulous installed ######################"

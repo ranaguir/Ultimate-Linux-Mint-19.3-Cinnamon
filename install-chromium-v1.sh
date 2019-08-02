@@ -12,22 +12,12 @@
 ##################################################################################################################
 
 
+# donwloading and installing google chrome for netflix e.g.
 
-# 1. Add the Spotify repository signing keys to be able to verify downloaded packages
-#sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 0DF731E45CE24F27EEEB1450EFDC8610341D9410
+sudo apt install chromium-browser adobe-flashplugin -y
 
-# 2. Add the Spotify repository
-#echo deb http://repository.spotify.com stable non-free | sudo tee /etc/apt/sources.list.d/spotify.list
-
-# 3. Update list of available packages
-#sudo apt update
-
-# Ya viene en los repositorios oficiales
-# 4. Install Spotify
-sudo apt install spotify-client -y
-
-
+# webaccounts-chromium-extension unity-chromium-extension no se instalan pues da un error
 
 echo "################################################################"
-echo "###################   spotify installed   ######################"
+echo "###################    google chrome installed #################"
 echo "################################################################"

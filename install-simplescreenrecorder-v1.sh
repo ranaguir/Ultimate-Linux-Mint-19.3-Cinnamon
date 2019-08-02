@@ -12,8 +12,9 @@
 ##################################################################################################################
 
 
-sudo add-apt-repository -y ppa:maarten-baert/simplescreenrecorder
-sudo apt-get update
+#sudo add-apt-repository -y ppa:maarten-baert/simplescreenrecorder
+#sudo apt-get update
+# Ya se encuentra en el repositorio principal de Linux Mint
 sudo apt-get install -y simplescreenrecorder
 
 echo "################################################################"
