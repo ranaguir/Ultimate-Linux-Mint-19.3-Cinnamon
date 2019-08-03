@@ -66,6 +66,11 @@ sh install-spotify-v*.sh
 # Otro editor de código
 sh install-sublime-text-v*.sh
 
+###############################################################################################
+
+# Visual Studio Code
+# Otro editor de código
+sh install-vscode-v*.sh
 
 ###############################################################################################
 
