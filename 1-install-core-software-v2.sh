@@ -12,10 +12,12 @@ set -e
 ##################################################################################################################
 
 #software from 'normal' repositories
-sudo apt-get install -y curl dconf-cli dconf-editor dropbox evolution geany geary gimp gpick
-sudo apt-get install -y glances gparted grsync hardinfo inkscape meld
-sudo apt-get install -y openshot plank ppa-purge radiotray screenruler screenfetch scrot shutter slurm synapse
-sudo apt-get install -y thunar vlc vnstat   
+#sudo apt-get install -y curl dconf-cli dconf-editor dropbox evolution geany geary gimp gpick
+sudo apt install -y curl dconf-cli dconf-editor dropbox gimp gpick
+sudo apt install -y glances gparted grsync hardinfo inkscape meld
+#sudo apt-get install -y openshot plank ppa-purge radiotray screenruler screenfetch scrot shutter slurm synapse
+sudo apt install -y plank ppa-purge screenruler screenfetch shutter synapse vlc vnstat
+#sudo apt-get install -y thunar vlc vnstat
 
 
 #operating specific software

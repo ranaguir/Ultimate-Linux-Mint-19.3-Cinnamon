@@ -17,7 +17,7 @@
 
 rm -rf /tmp/arc-flatabulous-theme
 
-sudo apt install -y autoconf automake pkg-config libgtk-3-dev git optipng sassc
+sudo apt install -y autoconf automake pkg-config libgtk-3-dev git optipng sassc gnome-shell
 
 git clone https://github.com/andreisergiu98/arc-flatabulous-theme  /tmp/arc-flatabulous-theme
 cd /tmp/arc-flatabulous-theme
