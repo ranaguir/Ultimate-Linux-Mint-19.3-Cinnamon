@@ -11,14 +11,21 @@
 #
 ##################################################################################################################
 
-wget -O /tmp/skypeforlinux-64.deb https://go.skype.com/skypeforlinux-64.deb
-sudo dpkg -i /tmp/skypeforlinux-64.deb
-rm /tmp/skypeforlinux-64.deb
+# Tomado de https://embraceubuntu.com/2007/09/16/installing-vista-fonts-in-ubuntu/
+
+mkdir ~/.fonts
+wget -O /tmp/vistafonts-installer.sh http://plasmasturm.org/code/vistafonts-installer/vistafonts-installer
+chmod +x /tmp/vistafonts-installer.sh
+/tmp/vistafonts-installer.sh
+rm /tmp/vistafonts-installer.sh
+
+# Posteriormente será necesario actualizar los íconos de las aplicaciones en /usr/share/applications
+# buscar las relacionadas con Visual Studio Code y cambiar la entradas de Icon por visual-studio-code
 
 ##################################################################################################################
 
 echo "################################################################"
-echo "##########      skype installed    ###########"
+echo "##########           vistafonts installed            ###########"
 echo "################################################################"
 
 

@@ -4,6 +4,7 @@ set -e
 # Written to be used on 64 bits computers
 # Author 	: 	Erik Dubois
 # Website 	: 	http://www.erikdubois.be
+# Modified by: Randall Aguirre
 ##################################################################################################################
 ##################################################################################################################
 #
@@ -87,6 +88,18 @@ sh install-keepass-v*.sh
 # zim
 # Wiki de escritorio
 sh install-zim-v*.sh
+
+###############################################################################################
+
+# Forticlient
+# Cliente de VPN Fortigate
+sh install-forticlient-v*.sh
+
+###############################################################################################
+
+# Vistafonts
+# Tipografías de Windows Vista: Constantia, Corbel, Calibri, Cambria, Candara and Consolas
+sh install-vistafonts-v*.sh
 
 ###############################################################################################
 
