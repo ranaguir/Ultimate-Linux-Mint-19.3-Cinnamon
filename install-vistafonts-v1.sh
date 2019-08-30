@@ -13,9 +13,12 @@
 
 # Tomado de https://embraceubuntu.com/2007/09/16/installing-vista-fonts-in-ubuntu/
 
-mkdir ~/.fonts
+# Crea el directorio .fonts si no existe
+[ -d $HOME"/.fonts" ] || mkdir -p $HOME"/.fonts"
+
 wget -O /tmp/vistafonts-installer.sh http://plasmasturm.org/code/vistafonts-installer/vistafonts-installer
 chmod +x /tmp/vistafonts-installer.sh
+
 /tmp/vistafonts-installer.sh
 rm /tmp/vistafonts-installer.sh
 
